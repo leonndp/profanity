@@ -1,0 +1,10 @@
+[
+    {
+        "name": "rather",
+        "content": "I'd rather :verb"
+    },
+    {
+        "name": "declarative",
+        "content": "You are :adjective"
+    }
+]

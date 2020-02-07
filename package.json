@@ -1,0 +1,23 @@
+{
+  "name": "swearing-app",
+  "version": "1.0.0",
+  "description": "App that generates profanity-laden sentences",
+  "main": "index.js",
+  "author": "Leon N. Dela Pena",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon server",
+    "client": "(cd ./client && yarn run dev)",
+    "dev": "concurrently \"yarn run server\" \"yarn run client\""
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.11"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "cross-env": "^7.0.0",
+    "nodemon": "^2.0.2"
+  }
+}
